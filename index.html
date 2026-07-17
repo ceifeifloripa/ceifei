@@ -1,5 +1,55 @@
-background:#0859a6;
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>CEIFEI</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.container{
+    max-width:900px;
+    margin:0 auto;
+}
+
+img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.botao{
+    display:inline-block;
+    margin:40px auto 50px;
+    padding:18px 40px;
+    background:#0069d9;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+    transition:.25s;
+}
+
+.botao:hover{
+    background:#0053ad;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(0,0,0,.30);
+}
+
+.botao:active{
+    transform:translateY(0);
 }
 
 </style>
@@ -8,14 +58,15 @@ background:#0859a6;
 
 <body>
 
-<img src="folder.png">
+<div class="container">
 
-<a class="botao" href="MANUAL CEIFEI.pdf" download>
+    <img src="folder.png" alt="Convite CEIFEI">
 
-📄 Baixar Manual de funcionamento CEIFEI
+    <a class="botao" href="manual ceifei.pdf" download>
+        📥 Baixar Manual de Funcionamento do CEIFEI
+    </a>
 
-</a>
+</div>
 
 </body>
-
 </html>
