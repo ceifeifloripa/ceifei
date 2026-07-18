@@ -8,42 +8,45 @@
 
     <style>
 
-        body{
-            margin:0;
-            background:#ffffff;
-            font-family:Arial, Helvetica, sans-serif;
-            text-align:center;
+        body {
+            margin: 0;
+            background: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
         }
 
-        .container{
-            max-width:900px;
-            margin:0 auto;
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
         }
 
-        img{
-            width:100%;
-            height:auto;
-            display:block;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
 
-        .botao{
-            display:inline-block;
-            margin:35px auto 50px;
-            padding:18px 40px;
-            background:#0b6efd;
-            color:#ffffff;
-            text-decoration:none;
-            font-size:22px;
-            font-weight:bold;
-            border-radius:12px;
-            box-shadow:0 5px 15px rgba(0,0,0,.25);
-            transition:all .2s ease;
+        .botoes {
+            margin: 8px 0 30px;
         }
 
-        .botao:hover{
-            background:#0a58ca;
-            transform:translateY(-2px);
-            box-shadow:0 8px 20px rgba(0,0,0,.35);
+        .botao {
+            display: inline-block;
+            padding: 18px 40px;
+            background: #0b6efd;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.25);
+            transition: all .2s ease;
+        }
+
+        .botao:hover {
+            background: #0a58ca;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,.35);
         }
 
     </style>
@@ -56,8 +59,16 @@
 
         <img src="convite.png" alt="Convite CEIFEI">
 
-        <div style="margin:40px 0;">
+        <div class="botoes">
 
-    <a class="botao" href="manual_ceifei.pdf" target="_blank">
-        📖 Visualizar o Manual de Funcionamento do CEIFEI
-    </a>
+            <a class="botao" href="manual_ceifei.pdf" target="_blank">
+                📖 Visualizar o Manual de Funcionamento do CEIFEI
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
